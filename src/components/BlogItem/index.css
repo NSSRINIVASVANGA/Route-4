@@ -1,0 +1,44 @@
+.image {
+  width: 220px;
+}
+
+.avatar {
+  width: 30px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.avatar-con {
+  display: flex;
+  align-items: center;
+}
+
+.blog-item-con {
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 10px;
+}
+
+.topic {
+  color: #8e8e8e;
+}
+
+.author {
+  color: #8e8e8e;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .blog-item-con {
+    display: flex;
+    align-items: center;
+  }
+
+  .image {
+    width: 250px;
+    margin-right: 10px;
+  }
+}
